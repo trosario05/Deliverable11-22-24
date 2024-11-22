@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travis' Website</title>
+    <title>Travis Website</title>
     <link rel="stylesheet" href="CSS.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
 
   <button type="button" class="collapsible">Music</button>
 <div class="content">
-  <img src="C:\Users\TravisRosario\Documents\Deliverable 1122\images\TheStrokes.jpg" alt="The Strokes, Band" width="100" class="center">
+  <img src="images/TheStrokes.jpg" alt="The Strokes, Band" width="250" height="100">
     <p>I listen to all kinds of music, but lately, I’ve been really into Alternative. 
       There's something about the energy and emotion in the genre that draws me in. 
       Right now, I’m into All These Things That I've Done by The Killers, and Ode to the Mets 
@@ -29,6 +29,7 @@
 
   <button type="button" class="collapsible">Food</button>
 <div class="content">
+  <img src="images/Mangu.jpg" alt="Mangu" width="250" height="100">
     <p>Food has always been a huge part of my life—it’s not just about eating, 
       but about the experience and joy that comes with it. I especially love the 
       flavors from my culture in the Dominican Republic, like Mangu, Arroz con Habichuela,
@@ -39,6 +40,7 @@
 
   <button type="button" class="collapsible">Favorite Super-Hero</button>
   <div class="content">
+    <img src="images/Spiderman.jpg" alt="Spiderman" width="250" height="100">
     <p>I love Spider-Man because he feels so real. He’s not just a superhero—he’s someone 
       who struggles with everyday stuff like school, work, and relationships, all while 
       trying to do the right thing. What makes him stand out is that he doesn’t have it all 
@@ -49,6 +51,7 @@
 
   <button type="button" class="collapsible">Favorite Show</button>
   <div class="content">
+  <img src="images/HighFidelity.jpg" alt="High Fidelity" width="250" height="100">
     <p>My favorite shows are a mix of different vibes, but they all hold a special place. 
       High Fidelity is one I can always go back to—its blend of music, relationships, and 
       personal growth really speaks to me, and I love the way the main character navigates 
@@ -62,10 +65,12 @@
 
   <button type="button" class="collapsible">Favorite Color</button>
   <div class="content">
+  <img src="images/Green.png" alt="green" width="250" height="100">
     <p>Favorite color: Forest Green</p>
   </div>
 
-    <script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
       var coll = document.getElementsByClassName("collapsible");
       var i;
       
@@ -80,7 +85,9 @@
           }
         });
       }
-      </script>
+    });
+  </script>
+    
 
 </body>
 </html>
